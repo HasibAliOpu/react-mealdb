@@ -4,17 +4,24 @@
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 150px;
+  justify-content: space-around;
   color: rgb(66, 107, 241);
 }
 .header-container input {
-  border: 2px solid cornflowerblue;
   height: 28px;
-  width: 240px;
+  width: 540px;
   border-radius: 30px;
+  border: 2px solid cornflowerblue;
   box-shadow: 5px 5px rgba(106, 159, 209, 0.459);
   text-align: center;
+  font-weight: 700;
+}
+.header-container button {
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+  border: 2px solid rgba(167, 105, 25, 0.514);
+  box-shadow: 5px 5px rgba(199, 120, 84, 0.459);
+  background-color: salmon;
   font-weight: 700;
 }
