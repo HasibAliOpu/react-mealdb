@@ -1,6 +1,13 @@
+.ui-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
 .meals-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
   margin: 50px 50px 49px 90px;
+}
+.order-container {
+  background-color: rgb(13, 255, 243);
 }

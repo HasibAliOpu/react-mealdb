@@ -10,11 +10,15 @@ const Meals = () => {
   }, []);
   // const { meal } = meals.meals;
   return (
-    <div className="meals-container">
-      {/* <h1>Hello {meals.length}</h1> */}
-      {meals.map((meal) => (
-        <ShowMeal key={meal.idMeal} meal={meal} />
-      ))}
+    <div className="ui-container">
+      <div className="meals-container">
+        {meals.map((meal) => (
+          <ShowMeal key={meal.idMeal} meal={meal} />
+        ))}
+      </div>
+      <div className="order-container">
+        <h2>Order Items</h2>
+      </div>
     </div>
   );
 };
