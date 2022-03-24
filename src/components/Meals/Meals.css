@@ -11,3 +11,10 @@
 .order-container {
   background-color: rgb(13, 255, 243);
 }
+
+.order-info {
+  padding-left: 50px;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+}
